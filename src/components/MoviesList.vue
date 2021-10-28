@@ -13,8 +13,16 @@ export default defineComponent({
   setup() {
     const categories_list = {
       action: "Akční",
+      adventure: "Dobrodružné",
       horror: "Horory",
       "sci-fi": "Sci-fi",
+      thriller: "Thrillery",
+      comedy: "Komedie",
+      drama: "Drama",
+      animation: "Animované",
+      cartoon: "Kreslené",
+      romantic: "Romantické",
+      dystopian: "Dystopické",
     };
 
     const state = reactive({
